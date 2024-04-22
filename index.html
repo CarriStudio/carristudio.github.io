@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>起飞工作室 (Carri Studio)</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="icon" type="image/svg+xml" href="./assets/icon.svg" sizes="512x512">
+</head>
+<body>
+    <div class="header_block">
+        <div class="header_title_block">
+            <img class="header_title_logo" src="./assets/icon.svg" alt="">
+            <p id="header_title">起飞工作室</p>
+        </div>
+        <div class="header_title_menu">
+            <a href="./">主页</a>
+            <a href="./works.html">作品集</a>
+            <a href="./friends.html">友情链接</a>
+            <a href="./aboutus.html">关于我们</a>
+        </div>
+        <div class="header_right_block">
+            <button class="support_us" title="前往爱发电向我们打赏">支持我们</button>
+        </div>
+        <div class="menu_button" onclick="toggleMobileMenu()">
+            <img src="./assets/menu.svg" alt="Menu">
+        </div>
+    </div>
+    <!-- 移动端菜单 -->
+    <div id="mobile_menu">
+        <a href="./">主页</a>
+        <a href="./works.html">作品集</a>
+        <a href="./friends.html">友情链接</a>
+        <a href="./aboutus.html">关于我们</a>
+        <br>
+        <button class="support_us" title="前往爱发电向我们打赏">支持我们</button>
+    </div>
+    <div class="body_first_sight_block">
+        <div class="body_first_sight_left_block">
+            <p id="first_sight_slogan">芜湖，起飞~</p>
+            <p id="first_sight_description">我们致力于易用的工具开发和翻译工作</p>
+        </div>
+        <div class="body_first_sight_right_block">
+            <img class="body_image" src="./assets/icon.svg" alt="">
+        </div>
+    </div>
+    <div class="footer_block">
+        <div class="footer_left_block">
+            <div class="footer_left_block_top">
+                <p id="footer_copyright">Copyright © 2024 Carri Studio</p>
+            </div>
+            <div class="footer_left_block_bottom">
+                <p>Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</p>
+                <p>Accelerated by <a href="https://www.cloudflare.com/" target="_blank">Cloudflare</a>.</p>
+            </div>
+            <div class="footer_left_block_bottom line_2">
+                <p>Design Inspiration Comes From <a href="https://windsys.win/" target="_blank">Windsys Project</a>.</p>
+            </div>
+        </div>
+        <div class="footer_right_block">
+            <p>诶嘿！</p>
+        </div>
+    </div>
+</body>
+<script src="./js/index.js"></script>
+</html>
